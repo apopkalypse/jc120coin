@@ -1,0 +1,27 @@
+{
+  "name": "jc120coin",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contracts",
+    "hardhat",
+    "blockchain",
+    "dapps",
+    "javascript",
+    "tooling",
+    "task-runner",
+    "solidity"
+  ],
+  "author": "@thisisanal",
+  "license": "MIT",
+  "description": "Test and deploy the Jazz Coin smart contract on Ethereum.",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.15.7",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.15"
+  }
+}

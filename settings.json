@@ -1,0 +1,8 @@
+{
+    "JazzERC20": {
+        "name": "Jazz Coin",
+        "symbol": "JAZZ",
+        "decimals": 6,
+        "initialSupply": 69420000
+    }
+}
