@@ -1,13 +1,11 @@
-# Sample Hardhat Project
+# Jazz Coin
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+Jazz Coin is an ERC-20 compliant smart contract deployed to Ethereum. This project tests, deploys, and verifies the code for JazzERC20.
 
-Try running some of the following tasks:
+Web UI coming soon.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
+Test: npm test
+Deploy to Sepolia: npx hardhat ignition/modules/JazzERC20.js --network sepolia
+Verify on Sepolia: npx hardhat verify --network sepolia <smart contract address> --constructor-args verify/JazzERC20.arguments.js
 ```
