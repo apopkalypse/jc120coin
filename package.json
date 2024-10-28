@@ -22,6 +22,8 @@
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
     "@nomicfoundation/hardhat-ignition-ethers": "^0.15.7",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.11",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
     "hardhat": "^2.22.15"
   }
 }
